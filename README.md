@@ -25,7 +25,7 @@ If you want to use the `train_recognition_model()`, you will also need to instal
 
 ## Usage
 1. Run the `headshot_cap.py` script to build the dataset of faces with `python headshot_cap.py <name>`
-2. Position the camera in front of the person's face, press the spacebar, and get at least 10 face detections with various positions.
+2. Position the camera in front of the person's face, press the spacebar, and get at least 10 (more is better) face detections with various positions.
 3. Run the `training.py` script with `python training.py`. This could be changed to use the FaceNet model, but it would require recognition changes also. 
 4. Run the `recognition.py` with `python recognition.py`
 5. Press the space bar to take a picture, and the identity and confidence will be printed out. 
