@@ -17,7 +17,7 @@ This project is a Raspberry Pi based program that utilizes the AI Pi Camera with
     python -m venv venv
     source venv/bin/activate
 ```
-I had libcamera conflicts with the venv, so I did without it.
+I had libcamera conflicts with the venv, so I did without it.<br>
 3. Install requirements:
 ```bash
     pip install -r requirements.txt
